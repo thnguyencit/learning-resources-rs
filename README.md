@@ -23,4 +23,6 @@ With:
 - -p specify the path to file input
 - -t : specify training set
 - -v : specify validation set
-- -v : specify the number of epochs
+- -e : specify the number of epochs
+- -b : specific the number of batch size
+- -s :if >0 show results by charts
