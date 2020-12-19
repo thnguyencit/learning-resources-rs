@@ -15,7 +15,7 @@ pip install pillow
 ```
 ## Usage
 
-Please run this code to reproduce the experiment
+Please run this script to reproduce the experiment
 ```bash
 python learning-resources-RS.py -t reviews_train -v reviews_test -p at_least_5ratings -e 15
 ```
