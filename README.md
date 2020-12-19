@@ -1,4 +1,4 @@
-# Code is reproduce the experimental results in the paper "Deep Matrix Factorization for Learning Resources Recommendation"
+# Code is to reproduce the experimental results in the paper "Deep Matrix Factorization for Learning Resources Recommendation"
 # Prerequisites
 Please install if you do not have: python3.6
 ```bash
