@@ -25,6 +25,7 @@ parser.add_option('-v','--val',default='reviews_test',help='specify validation s
 parser.add_option('-p','--path',default='.',help='specify the path to file input')
 parser.add_option('-e','--epoch',type="int",default = 15, help='specific number of epoch')
 parser.add_option('-b','--batchsize',type="int",default = 256, help='specific number of batch size')
+parser.add_option('-s','--show',type="int",default = 0, help='if >0 show results by a chart')
 
 (options, args) = parser.parse_args()
 
@@ -95,7 +96,7 @@ y = Dot(1, normalize=False)([user_vector, item_vector])
 model = Model(inputs=[user_id_input, item_id_input], outputs=y)
 model.compile(loss='mse', optimizer='adam')
 
-# Fit model
+# learning model
 history = model.fit([train_user_data, train_item_data],
           df_train['Rating'],
           batch_size=options.batchsize, 
@@ -103,13 +104,14 @@ history = model.fit([train_user_data, train_item_data],
           validation_split=0.1,
           shuffle=True)
 
-plt.plot(history.history['loss'])
-plt.plot(history.history['val_loss'])
-plt.title('MF - Model loss')
-plt.ylabel('loss')
-plt.xlabel('epoch')
-plt.legend(['train', 'test'], loc='upper left')
-plt.show()
+if options.show > 0:
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('MF - Model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.show()
 
 # Test model
 y_pred = model.predict([test_user_data, test_item_data])
@@ -123,7 +125,7 @@ print('MAE  MF:', mae_mf)
 fheader = np.array(['#users','#books','ratings','#embedding_size','epochs','rmse_mf','mae_mf'])
 fscores = np.array([users, items, ratings, embedding_size, nepochs, rmse_mf, mae_mf    ])
 DAT =  np.column_stack((fheader, fscores))
-np.savetxt(path+'results/mf-5ratings-' + filename + '-f'+ str(embedding_size) + '-e' + str(nepochs) + '.txt', DAT, delimiter="\t", fmt="%s") 
+np.savetxt(path + '/' + filename + '-f'+ str(embedding_size) + '-e' + str(nepochs) + '.txt', DAT, delimiter="\t", fmt="%s") 
 
 ##################### Deep Matrix Factorization #######################
 # Setup variables
@@ -162,21 +164,21 @@ y = Dense(1)(dense)
 model = Model(inputs=[user_id_input, item_id_input], outputs=y)
 model.compile(loss='mse', optimizer='adam')
 
-# Fit model
+# learning model
 history = model.fit([train_user_data, train_item_data],
           df_train['Rating'],
           batch_size=256, 
           epochs=nepochs,
           validation_split=0.1,
           shuffle=True)
-
-plt.plot(history.history['loss'])
-plt.plot(history.history['val_loss'])
-plt.title('DeepMF - Model loss')
-plt.ylabel('loss')
-plt.xlabel('epoch')
-plt.legend(['train', 'test'], loc='upper left')
-plt.show()
+if options.show > 0:
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('DeepMF - Model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.show()
 
 # Test model
 y_pred = model.predict([test_user_data, test_item_data])
@@ -197,5 +199,5 @@ print('MAE     MF:', mae_mf)
 fheader = np.array(['#users','#books','#ratings','#user_embedding_size','book_embedding_size','nodes','epochs','rmse_dmf','mae_dmf'])
 fscores = np.array([users, items, ratings, user_embedding_size, item_embedding_size, nodes, nepochs, rmse_dmf, mae_dmf    ])
 DAT =  np.column_stack((fheader, fscores))
-np.savetxt(path+'results/dmf-5ratings-'+filename+'-fu'+ str(user_embedding_size) + '-fi' + str(item_embedding_size) + '-node' + str(nodes) + '-e' + str(nepochs) + '.txt', DAT, delimiter="\t", fmt="%s") 
+np.savetxt(path+'/'+filename+'-fu'+ str(user_embedding_size) + '-fi' + str(item_embedding_size) + '-node' + str(nodes) + '-e' + str(nepochs) + '.txt', DAT, delimiter="\t", fmt="%s") 
 
