@@ -13,7 +13,7 @@ pip install keras_sequential_ascii
 ```
 ## Usage
 
-Please run this script to reproduce an experiment with the training set of "reviews_train" and validation set of reviews_test. These file are located in at_least_5ratings folder. This experiment run to 15 epochs.
+Please run this script to reproduce an experiment with the training set of **reviews_train** and validation set of **reviews_test**. These file are located in **at_least_5ratings** folder. This experiment run to 15 epochs.
 ```bash
 python learning-resources-RS.py -t reviews_train -v reviews_test -p at_least_5ratings -e 15
 ```
