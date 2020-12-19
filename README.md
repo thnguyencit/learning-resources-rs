@@ -1,6 +1,6 @@
 # Code is to reproduce the experimental results in the paper "Deep Matrix Factorization for Learning Resources Recommendation"
 # Prerequisites
-Please install if you do not have: python3.6
+Please install if you do not have: python3.6. Some packages you may need to install more.
 ```bash
 pip install numpy
 pip install matplotlib
