@@ -32,7 +32,7 @@ Personal site: https://sites.google.com/view/thanhdien/
 
 Email: thanhdien@ctu.edu.vn
 
-Biography: He is a lecturer of College of Information and Communication Technology, Can Tho University (CTU), Vietnam. He received the B.S. degree in Informatics from Cantho University in 1998, the MEng. degree in Information Management from Asian Institute of Technology (AIT), Thailand. From August 2017 up to now, he is PhD candidate in Information Systems of Can Tho University, Vietnam.
+Biography: He is a lecturer of College of Information and Communication Technology, Can Tho University (CTU), Vietnam. He received the B.S. degree in Informatics from Cantho University in 1998, the MEng. degree in Information Management from Asian Institute of Technology (AIT), Thailand in 2006. From August 2017 up to now, he is PhD candidate in Information Systems of Can Tho University, Vietnam.
 
 Research topics: Recommender Systems, Machine Learning, Ontologies in education
 ### Nguyen Thanh-Hai
