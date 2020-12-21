@@ -27,8 +27,14 @@ Some parameters to run with command line:
 - -s : if >0 show results by charts
 
 ## Authors
+### Tran Thanh Dien
+...
+### Nguyen Thanh-Hai
+Domain of Research: Artificial Intelligence, Bioinformatics, Computer Vision,Databases, Health care Systems, Machine Learning, Recommendation Systems, Simulation Systems
 
+Biography: NGUYEN Thanh Hai is a lecturer of College of Information and Communication Technology, Can Tho University, Vietnam. He received his Engineering degree in Informatics from Can Tho University, the master degree in Computer Science and Engineering from National Chiao Tung University, Taiwan, and obtained the PhD degree in Computer Science from Sorbonne University, France. His PhD thesis studied approaches for disease prediction using metagenomic data. His current research includes Bioinformatics, Health care system, Computer Vision, modeling of decisions, and recommender system.
 ### Nguyen Thai-Nghe
-![alt text](https://thesai.org/Reviewers/Thumbnail/ea98a4f3-efe1-43f1-a67c-f10dc5f5e58e){:style="float: right;margin-right: 7px;margin-top: 7px;"} Domain of Research: Intelligent Systems,Artificial Intelligence,e-Business,e-Learning,Artificial Intelligence,Big Data,Business Intelligence,Computational Intelligence,Computer Vision,Data Mining,Data Retrieval and Data Mining,Data Science,Databases,Decision Support Systems,e-Business,Educational Systems Design,e-Learning,Expert Systems,Information Retrieval,Intelligent Systems,Knowledge Engineering and Mining,Knowledge Management,Machine Learning,Mobile Applications,Soft Computing
+Domain of Research: Intelligent Systems,Artificial Intelligence,e-Business,e-Learning,Artificial Intelligence,Big Data,Business Intelligence,Computational Intelligence,Computer Vision,Data Mining,Data Retrieval and Data Mining,Data Science,Databases,Decision Support Systems,e-Business,Educational Systems Design,e-Learning,Expert Systems,Information Retrieval,Intelligent Systems,Knowledge Engineering and Mining,Knowledge Management,Machine Learning,Mobile Applications,Soft Computing
 
 Biography: Dr. NGUYEN THAI-NGHE is an Associate Professor of the department of Information Systems at Cantho University. He received the B.S. degree in Informatics from Cantho University (CTU) and the M.S. degree in Information Management from Asian Institute of Technology, Thailand. In 2009-2012, he got the scholarship of WorldBank-CTU to do Ph.D. degree in Computer Science at University of Hildesheim, Germany. He is the PC member/reviewer of several international conference and journal such as Springer FDSE, IEEE ACOMP, IEEE KSE, Springer ACIIDS, PLOS ONE, ASTESJ, etc.
+
