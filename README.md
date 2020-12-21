@@ -25,3 +25,10 @@ Some parameters to run with command line:
 - -e : specify the number of epochs
 - -b : specific the number of batch size
 - -s : if >0 show results by charts
+
+## Authors
+
+### Nguyen Thai-Nghe
+Domain of Research: Intelligent Systems,Artificial Intelligence,e-Business,e-Learning,Artificial Intelligence,Big Data,Business Intelligence,Computational Intelligence,Computer Vision,Data Mining,Data Retrieval and Data Mining,Data Science,Databases,Decision Support Systems,e-Business,Educational Systems Design,e-Learning,Expert Systems,Information Retrieval,Intelligent Systems,Knowledge Engineering and Mining,Knowledge Management,Machine Learning,Mobile Applications,Soft Computing
+
+Biography: Dr. NGUYEN THAI-NGHE is an Associate Professor of the department of Information Systems at Cantho University. He received the B.S. degree in Informatics from Cantho University (CTU) and the M.S. degree in Information Management from Asian Institute of Technology, Thailand. In 2009-2012, he got the scholarship of WorldBank-CTU to do Ph.D. degree in Computer Science at University of Hildesheim, Germany. He is the PC member/reviewer of several international conference and journal such as Springer FDSE, IEEE ACOMP, IEEE KSE, Springer ACIIDS, PLOS ONE, ASTESJ, etc.
