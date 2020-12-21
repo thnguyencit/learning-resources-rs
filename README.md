@@ -31,6 +31,14 @@ Some parameters to run with command line:
 Personal site: https://sites.google.com/view/thanhdien/
 
 Email: thanhdien@ctu.edu.vn
+
+Research topics:
+
+- Recommender Systems
+
+- Machine Learning
+
+- Ontologies in education
 ### Nguyen Thanh-Hai
 Email: nthai@cit.ctu.edu.vn
 
