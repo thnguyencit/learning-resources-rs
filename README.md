@@ -1,5 +1,5 @@
 # Code is to reproduce the experimental results
-This code aims to reproduce the resuls in the paper "Deep Matrix Factorization for Learning Resources Recommendation"
+This code aims to reproduce the results in the paper **Deep Matrix Factorization for Learning Resources Recommendation**
 # Prerequisites
 Please install if you do not have: python3.6. Some packages you may need to install more.
 ```bash
