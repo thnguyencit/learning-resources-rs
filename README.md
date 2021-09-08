@@ -42,7 +42,7 @@ Domain of Research: Artificial Intelligence, Bioinformatics, Computer Vision,Dat
 
 Biography: He is a lecturer of College of Information and Communication Technology, Can Tho University, Vietnam. He received his Engineering degree in Informatics from Can Tho University, the master degree in Computer Science and Engineering from National Chiao Tung University, Taiwan, and obtained the PhD degree in Computer Science from Sorbonne University, France. His PhD thesis studied approaches for disease prediction using metagenomic data. His current research includes Bioinformatics, Health care system, Computer Vision, modeling of decisions, and recommender system.
 ### Tran Thanh Dien
-Personal site: https://sites.google.com/view/thanhdien/
+Personal site: https://sites.google.com/a/ctu.edu.vn/thanhdien/
 
 Email: thanhdien@ctu.edu.vn
 
