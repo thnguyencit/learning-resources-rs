@@ -2,6 +2,7 @@
 This code aims to reproduce the results in the paper **Deep Matrix Factorization for Learning Resources Recommendation**
 
 Please cite this work, if this can help you:
+
 Dien T.T., Thanh-Hai N., Nghe N.T. (2021) Deep Matrix Factorization for Learning Resources Recommendation. In: Nguyen N.T., Iliadis L., Maglogiannis I., Trawiński B. (eds) Computational Collective Intelligence. ICCCI 2021. Lecture Notes in Computer Science, vol 12876. Springer, Cham. https://doi.org/10.1007/978-3-030-88081-1_13
 
 ```
