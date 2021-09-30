@@ -1,5 +1,36 @@
 # Code is to reproduce the experimental results
 This code aims to reproduce the results in the paper **Deep Matrix Factorization for Learning Resources Recommendation**
+
+Please cite this work, if this can help you:
+Dien T.T., Thanh-Hai N., Nghe N.T. (2021) Deep Matrix Factorization for Learning Resources Recommendation. In: Nguyen N.T., Iliadis L., Maglogiannis I., Trawiński B. (eds) Computational Collective Intelligence. ICCCI 2021. Lecture Notes in Computer Science, vol 12876. Springer, Cham. https://doi.org/10.1007/978-3-030-88081-1_13
+
+```
+Dien T.T., Thanh-Hai N., Nghe N.T. (2021) Deep Matrix Factorization for Learning Resources Recommendation. In: Nguyen N.T., Iliadis L., Maglogiannis I., Trawiński B. (eds) Computational Collective Intelligence. ICCCI 2021. Lecture Notes in Computer Science, vol 12876. Springer, Cham. https://doi.org/10.1007/978-3-030-88081-1_13
+```
+@incollection{Dien2021,
+  doi = {10.1007/978-3-030-88081-1_13},
+  url = {https://doi.org/10.1007/978-3-030-88081-1_13},
+  year = {2021},
+  publisher = {Springer International Publishing},
+  pages = {167--179},
+  author = {Tran Thanh Dien and Nguyen Thanh-Hai and Nguyen Thai Nghe},
+  title = {Deep Matrix Factorization for Learning Resources Recommendation},
+  booktitle = {Computational Collective Intelligence}
+}
+
+```
+@incollection{Dien2021,
+  doi = {10.1007/978-3-030-88081-1_13},
+  url = {https://doi.org/10.1007/978-3-030-88081-1_13},
+  year = {2021},
+  publisher = {Springer International Publishing},
+  pages = {167--179},
+  author = {Tran Thanh Dien and Nguyen Thanh-Hai and Nguyen Thai Nghe},
+  title = {Deep Matrix Factorization for Learning Resources Recommendation},
+  booktitle = {Computational Collective Intelligence}
+}
+```
+
 # Prerequisites
 Please install if you do not have: python3.6. Some packages you may need to install more.
 ```bash
