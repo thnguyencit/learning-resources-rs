@@ -74,3 +74,6 @@ Biography: He is a lecturer of College of Information and Communication Technolo
 Research topics: Recommender Systems, Machine Learning, Ontologies in education
 
 
+![](https://komarev.com/ghpvc/?username=thnguyencit)
+
+
