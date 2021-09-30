@@ -59,7 +59,7 @@ Domain of Research: Intelligent Systems,Artificial Intelligence,e-Business,e-Lea
 
 Biography: Dr. NGUYEN THAI-NGHE is an Associate Professor of the department of Information Systems at Can Tho University. He received the B.S. degree in Informatics from Can Tho University (CTU) and the M.S. degree in Information Management from Asian Institute of Technology, Thailand. In 2009-2012, he got the scholarship of WorldBank-CTU to do Ph.D. degree in Computer Science at University of Hildesheim, Germany. He is the PC member/reviewer of several international conference and journal such as Springer FDSE, IEEE ACOMP, IEEE KSE, Springer ACIIDS, PLOS ONE, ASTESJ, etc.
 ### Nguyen Thanh-Hai
-Email: nthai@cit.ctu.edu.vn
+Email: nthai.cit@ctu.edu.vn
 
 Domain of Research: Artificial Intelligence, Bioinformatics, Computer Vision,Databases, Health care Systems, Machine Learning, Recommendation Systems, Simulation Systems
 
